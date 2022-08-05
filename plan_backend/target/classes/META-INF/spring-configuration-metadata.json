@@ -1,0 +1,139 @@
+{
+  "groups": [
+    {
+      "name": "id",
+      "type": "com.lyx.teach.config.IdInfoConfig",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "url",
+      "type": "com.lyx.teach.config.UrlInfoConfig",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "id.class-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.college-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.daily-mark-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.enterprise-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.enterprise-manager-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.evaluation-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.major-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.notice-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.school-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.school-manager-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.student-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.teach-plan-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.teacher-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.wonderful-moments-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.work-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "id.work-information-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lyx.teach.config.IdInfoConfig"
+    },
+    {
+      "name": "url.a-li-yun",
+      "type": "java.lang.String",
+      "description": "使用阿里云的数据库",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.add-url",
+      "type": "java.lang.String",
+      "description": "添加表中一条数据的url地址",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.delete-url",
+      "type": "java.lang.String",
+      "description": "删除表中一条数据的url地址",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.select-all-url",
+      "type": "java.lang.String",
+      "description": "获取表中所有数据的url地址",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.select-one-url",
+      "type": "java.lang.String",
+      "description": "获取表中一条数据的url地址",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.shi-yan-shi",
+      "type": "java.lang.String",
+      "description": "使用实验室的数据库",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    },
+    {
+      "name": "url.update-url",
+      "type": "java.lang.String",
+      "description": "更新表中一条数据的url地址",
+      "sourceType": "com.lyx.teach.config.UrlInfoConfig"
+    }
+  ],
+  "hints": []
+}

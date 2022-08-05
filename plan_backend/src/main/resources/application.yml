@@ -1,0 +1,49 @@
+# web定义
+server:
+  port: 8082
+  address: 0.0.0.0
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0 #Redis数据库索引（默认为0）
+    lettuce:
+      pool:
+        max-active: 8 # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 8 # 连接池中的最大空闲连接
+        min-idle: 1  # 连接池中的最小空闲连接
+    timeout: PT10S # 连接超时时间（毫秒）
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 1000MB
+
+url:
+  aLiYun: http://47.109.54.58:8080/ # 阿里云端口
+  shiYanShi: http://222.24.63.60:8888/ # 实验室端口
+  selectAllUrl: http://222.24.63.60:8888/sadata/infoResourcesManageRest/findList/ # 查询全表的url
+  selectOneUrl: http://222.24.63.60:8888/sadata/infoResourcesRest/findPageByFilterEng/ # 查询表中单个数据的url
+  addUrl: http://222.24.63.60:8888/sadata/infoResourcesTwoRest/saveAll/ # 添加数据的url
+  deleteUrl: http://222.24.63.60:8888/sadata/infoResourcesTwoRest/deleteInfo/ # 删除数据的url
+  updateUrl: http://222.24.63.60:8888/sadata/infoResourcesTwoRest/saveAll/ # 更改数据的url
+  uploadUrl: http://222.24.63.60:8888/sadata/uploadExcleRest/uploadFile # 上传数据的url
+
+id:
+  workId: 4028839e82630f2c018263ed1c490034 # 岗位表
+  workInformationId: 4028839e82630f2c018263f30ce50041 # 学习资料表
+  teachPlanId: 4028839e82630f2c018263f7e1cf004b # 计划表
+  noticeId: 4028839e82630f2c018263fcde840054 # 首页通告表
+  wonderfulMomentsId: 4028839e82630f2c018263feb6f2005a # 精彩瞬间表
+  enterpriseId: 4028839e82630f2c018264032d1f005e # 公司表
+  teacherId: 4028839e82630f2c018264086251006c # 师傅表
+  enterpriseManagerId: 4028839e82630f2c018264109ca70084 # 公司账户表
+  evaluationId: 4028839e82630f2c01826417a12b0090 # 互评表
+  studentId: 4028839e82630f2c0182641ccfea0099 # 徒弟表
+  classId: 4028839e82630f2c0182642827e200a7 # 班级表
+  majorId: 4028839e82630f2c0182642a06b200ad # 专业表
+  collegeId: 4028839e82630f2c0182642d3e4400b2 # 学院表
+  schoolId: 4028839e82630f2c01826432c0ad00bb # 学校表
+  schoolManagerId: 4028839e82630f2c01826448e25800c6 # 学校账户表
+  dailyMarkId: 4028839e82630f2c0182644b598600cf # 打卡记录表
